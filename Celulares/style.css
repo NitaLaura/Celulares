@@ -1,0 +1,75 @@
+
+body{
+	margin: 0px;
+	margin-top: 0px;
+	background-color: #F0F8FF;
+}
+
+header{
+	background-color: #836FFF;
+	font-size: 13px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.menu{
+	background-color: #87CEFA;
+}
+
+.menu ul{
+	display: flex;
+	justify-content: center;
+	padding: 0px;
+}
+
+.menu ul li{
+	display: inline;
+	padding: 1px 15px;
+}
+
+.menu ul li a{
+	text-align: center;
+	text-decoration: none;
+}
+
+.menu ul li a:hover{
+	background-color: #F0F8FF;
+	padding: 5px;
+}
+
+.pesquisa{
+	background-color: #87CEFA;
+	font-size: 13px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2px;
+	padding-top: 7px;
+}
+
+h1{
+	text-align: center;
+	color: #00008B;
+	text-shadow: 0 0 0.1em #87F, 0 0 0.1em #87F, 0 0 0.1em #87F
+}
+
+h2{
+	text-align: center;
+	color: #00008B;
+	text-shadow: 0 0 0.1em #87F, 0 0 0.1em #87F, 0 0 0.1em #87F
+}
+
+footer{
+	background-color: #836FFF;
+	padding: 10px 3px;
+	text-align: right;
+	position: absolut;
+	bottom: 10;
+	color: #fff;
+}
+
+img, p{
+	display: inline-block;
+}
